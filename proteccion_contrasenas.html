@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protección de Contraseñas</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            background-image: radial-gradient(circle at top left, #e0c3fc, #8ec5fc);
+        }
+        .container {
+            background: white;
+            padding: 40px 60px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+        }
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-height: 200px;
+            max-width: 200px;
+            margin: 0 auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .last-image {
+            margin-top: 40px;
+        }
+        .boton-regresar {
+            display: inline-block;
+            background-color: #2980b9;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .boton-regresar:hover {
+            background-color: #1a5276;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Protección de Contraseñas</h1>
+        <div class="image-container">
+            <img src="contrasena.jpg" alt="Contraseña">
+        </div>
+        <p>Tu contraseña es fundamental, ya que es la llave de acceso a tus datos personales. Es esencial que elijas una contraseña robusta para proteger tu información. Aquí te proporciono algunos consejos para mejorar la seguridad de tu contraseña:</p>
+        <ul style="text-align: left;">
+            <li><strong>Evita usar datos personales:</strong> Es recomendable que no incluyas en tu contraseña información como fechas importantes, nombres o apellidos, ya que esto facilitaría a terceros descifrarla.</li>
+            <li><strong>Diversifica los tipos de caracteres:</strong> Para hacer tu contraseña más segura, combina diferentes tipos de caracteres, como números, letras (mayúsculas y minúsculas) y caracteres especiales. Esta variedad dificultará su descifrado.</li>
+            <li><strong>No te limites a un solo tipo de dígito:</strong> Evita utilizar exclusivamente números, letras minúsculas o mayúsculas en tu contraseña. La diversificación de tipos de caracteres aumentará su complejidad y, por ende, su seguridad.</li>
+            <li><strong>Cambia tu contraseña periódicamente:</strong> Modificar tu contraseña con regularidad fortalecerá la seguridad de tus datos, ya que dificultará aún más el acceso no autorizado.</li>
+        </ul>
+        <div class="image-container">
+            <img src="contra.jpg" alt="Otra imagen" class="last-image">
+        </div>
+        <a href="paguina.html" class="boton-regresar">Regresar</a>
+    </div>
+</body>
+</html>
